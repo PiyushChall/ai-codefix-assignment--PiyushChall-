@@ -1,0 +1,8 @@
+language,cwe,model_used,input_tokens,output_tokens,latency_ms
+java,CWE-89,deepseek-ai/deepseek-coder-1.3b-instruct,257,172,51119
+java,CWE-89,deepseek-ai/deepseek-coder-1.3b-instruct,216,222,76489
+java,CWE-89,deepseek-ai/deepseek-coder-1.3b-instruct,313,131,43947
+python,CWE-79,deepseek-ai/deepseek-coder-1.3b-instruct,343,377,122567
+javascript,CWE-200,deepseek-ai/deepseek-coder-1.3b-instruct,325,279,90520
+javascript,CWE-79,deepseek-ai/deepseek-coder-1.3b-instruct,341,166,60370
+python,CWE-79,deepseek-ai/deepseek-coder-1.3b-instruct,355,512,180265

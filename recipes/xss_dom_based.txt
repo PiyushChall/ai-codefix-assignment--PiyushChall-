@@ -1,0 +1,8 @@
+DOM-Based XSS Remediation Guidelines:
+
+1. Never insert raw user input directly into the DOM.
+2. Use safe DOM APIs such as textContent instead of innerHTML.
+3. Validate, encode, or sanitize all user-controlled data before rendering.
+4. Apply appropriate output encoding (HTML, JS, URL) based on context.
+5. Disable unsafe inline event handlers when possible.
+6. Use library-based sanitization (DOMPurify, etc.) when handling HTML content.

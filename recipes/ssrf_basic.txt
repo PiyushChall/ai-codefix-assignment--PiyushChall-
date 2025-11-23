@@ -1,0 +1,8 @@
+SSRF Remediation Guidelines:
+
+1. Never allow user input to control internal network requests directly.
+2. Implement an allowlist of permitted domains.
+3. Block requests to private/internal IP ranges (169.x, 10.x, 192.168.x, etc.).
+4. Disable HTTP redirects when fetching external URLs.
+5. Restrict outbound protocols to HTTP/HTTPS only.
+6. Use URL parsing and validation to prevent protocol abuse.

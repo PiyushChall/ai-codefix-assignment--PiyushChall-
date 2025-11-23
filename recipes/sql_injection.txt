@@ -1,0 +1,8 @@
+SQL Injection Remediation Guidelines:
+
+1. Always use parameterized queries (PreparedStatement, SqlParameter, etc.).
+2. Never concatenate user input directly into SQL statements.
+3. Validate and sanitize all external inputs.
+4. Use least-privilege database accounts.
+5. Avoid dynamic SQL unless absolutely necessary.
+6. Escape special characters only as a fallback, not a primary defense.

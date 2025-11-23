@@ -1,0 +1,8 @@
+JWT Validation Issue Remediation Guidelines:
+
+1. Always validate the JWT signature before trusting any claims.
+2. Ensure the correct algorithm is enforced (e.g., do not allow 'none').
+3. Validate expiration (exp), not-before (nbf), and issued-at (iat) claims.
+4. Use secure and unique signing keys.
+5. Do not place sensitive data in JWT payloads.
+6. Rotate signing keys periodically and invalidate old tokens.
